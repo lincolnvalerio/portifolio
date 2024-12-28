@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+:root {
+    --fundo1: rgb(196, 31, 31); /* Cor de fundo principal */
+    --fundo2: rgb(15, 15, 15); /* Cor de fundo alternativo */
+    --texto-cor: #fff; /* Cor do texto */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--fundo2);
+    color: var(--texto-cor);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1, h2 {
+    text-align: center;
+    color: var(--fundo1);
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--fundo1);
+    border-radius: 8px;
+}
+
+p {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.voltar-btn {
+    background-color: var(--fundo1);
+    color: var(--texto-cor);
+    border: none;
+    padding: 5px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.voltar-btn:hover {
+    background-color: rgb(150, 30, 30); /* Cor um pouco mais escura no hover */
+}

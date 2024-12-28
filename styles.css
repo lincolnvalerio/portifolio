@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+:root {
+    --fundo1: rgb(208, 49, 49);
+    --fundo2: rgb(15, 15, 15);
+      --branco: white;
+}
+
+* {
+    color: var(--fundo1);
+    background-color: var(--fundo2);
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 14px;
+}
+nav {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+nav a {
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: var(--fundo1);
+    color: black;
+    border-radius: px;
+    transition: 0.5s;
+}
+
+main {
+    margin-top: 50px;
+    text-align: center;
+}
+img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover; 
+    border-radius: 50%; 
+    display: block;
+    margin: 0 auto; 
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--fundo1);
+}
+
+
