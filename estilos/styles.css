@@ -3,7 +3,7 @@
 :root {
     --fundo1: rgb(208, 49, 49);
     --fundo2: rgb(15, 15, 15);
-      --branco: white;
+    --branco: white;
 }
 
 * {
@@ -22,6 +22,7 @@ header {
 h1 {
     font-size: 14px;
 }
+
 nav {
     padding: 10px;
     margin: 10px;
@@ -43,20 +44,29 @@ nav a:hover {
 
 main {
     margin-top: 50px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre a imagem e o texto */
 }
+
 img {
     width: 200px;
     height: 250px;
-    object-fit: cover; 
-    border-radius: 50%; 
-    display: block;
-    margin: 0 auto; 
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.texto {
+    max-width: 600px;     text-align: left;
 }
 
 h2 {
     font-size: 2rem;
     color: var(--fundo1);
 }
-
+p {
+    font-size: 1rem;
+    color: rgb(255, 89, 89);
+}
 

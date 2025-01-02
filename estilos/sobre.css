@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 :root {
-    --fundo1: rgb(196, 31, 31); /* Cor de fundo principal */
-    --fundo2: rgb(15, 15, 15); /* Cor de fundo alternativo */
-    --texto-cor: #fff; /* Cor do texto */
+    --fundo1: rgb(196, 31, 31);
+    --fundo2: rgb(15, 15, 15); 
+    --texto-cor: #fff;
 }
 
 body {
@@ -51,5 +51,5 @@ p {
 }
 
 .voltar-btn:hover {
-    background-color: rgb(150, 30, 30); /* Cor um pouco mais escura no hover */
+    background-color: rgb(150, 30, 30);
 }
